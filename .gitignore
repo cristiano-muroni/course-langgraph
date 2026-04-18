@@ -1,0 +1,19 @@
+# Ambientes Virtuais
+.venv/
+env/
+venv/
+ENV/
+
+# Cache do Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Poetry (O arquivo lock você DEVE subir, mas o cache não)
+.pytest_cache/
+.mypy_cache/
+
+*.db
+
+# Variáveis de Ambiente (Segurança!)
+.env
