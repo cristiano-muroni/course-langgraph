@@ -47,6 +47,31 @@ Este nó é onde a lógica de IA reside.
 Este nó é puramente funcional. Ele lê o pedido da IA (ex: multiply(```a=10```, ```b=200```)), executa a função correspondente e cria uma ```ToolMessage```. Esta mensagem serve para dizer ao modelo: _"Aqui está o resultado que me pediste"_.
 
 ### 📊 Análise do Resultado no Terminal
+
+_Console do terminal CMD:_
+```cmd
+================================ Human Message =================================
+
+10 vezes 200, dividido por 4, quanto é?
+================================== Ai Message ==================================
+Tool Calls:
+  multiply (f8c5efac-ecd9-4715-b62e-a4ae233c7d8a)
+ Call ID: f8c5efac-ecd9-4715-b62e-a4ae233c7d8a
+  Args:
+    a: 10
+    b: 200
+================================= Tool Message =================================
+
+2000
+================================== Ai Message ==================================
+Tool Calls:
+  divide (1d35888e-155c-4a70-96ef-c7b6d5c8dae3)
+ Call ID: 1d35888e-155c-4a70-96ef-c7b6d5c8dae3
+  Args:
+    a: 2000
+    b: 4
+================================= Tool Message =================================
+```
 Ao enviar a pergunta: "10 vezes 200, dividido por 4, quanto é?", o agente seguiu estes passos invisíveis:
 
 | Passo | Agente | Estado (Memória) | Ação |
