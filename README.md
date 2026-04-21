@@ -48,10 +48,12 @@ Este nó é puramente funcional. Ele lê o pedido da IA (ex: multiply(```a=10```
 
 ### 📊 Análise do Resultado no Terminal
 Ao enviar a pergunta: "10 vezes 200, dividido por 4, quanto é?", o agente seguiu estes passos invisíveis:
-Passo,Agente,Estado (Memória),Ação
-1,Humano,Pergunta original,Inicia o Grafo.
-2,Gemini,Pergunta + Pedido de Ferramenta,Identifica que deve multiplicar 10 por 200.
-3,Python,Resultado: 2000,Executa multiply e devolve o valor.
-4,Gemini,Histórico + 2000 + Pedido de Ferramenta,Vê o 2000 e pede para dividir por 4.
-5,Python,Resultado: 500,Executa divide e devolve o valor.
-6,Gemini,Resposta Final,Vê que não há mais contas e responde ao utilizador.
+
+| Passo | Agente | Estado (Memória) | Ação |
+| :--- | :--- | :--- | :--- |
+| **1** | **Humano** | Pergunta original | Inicia o Grafo. |
+| **2** | **Gemini** | Pergunta + Pedido de Ferramenta | Identifica que deve multiplicar 10 por 200. |
+| **3** | **Python** | Resultado: 2000 | Executa `multiply` e devolve o valor. |
+| **4** | **Gemini** | Histórico + 2000 + Pedido de Ferramenta | Vê o 2000 e pede para dividir por 4. |
+| **5** | **Python** | Resultado: 500 | Executa `divide` e devolve o valor. |
+| **6** | **Gemini** | Resposta Final | Vê que não há mais contas e responde ao utilizador. |
