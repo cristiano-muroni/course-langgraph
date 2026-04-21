@@ -1,7 +1,7 @@
 # 🚀 LangGraph: Agente Matemático com Gemini 1.5
 
 <p align="center">
-  <video src="default.mp4" width="100%" style="max-width:800px;" controls autoplay muted loop>
+  <video src="https://github.com/cristiano-muroni/course-langgraph/blob/main/default.mp4" width="100%" style="max-width:800px;" controls autoplay muted loop>
     Seu navegador não suporta o elemento de vídeo.
   </video>
 </p>
