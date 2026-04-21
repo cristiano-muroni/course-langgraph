@@ -1,7 +1,8 @@
 # 🚀 LangGraph: Agente Matemático com Gemini 1.5
 
 <p align="center">
-  <video src="https://customer-gh20rj71xet1a5e4.cloudflarestream.com/c169fc9aa9ecc12a4a1d54eb5faa9e62/downloads/default.mp4" width="600px" controls autoplay muted loop>
+  <video src="default.mp4" width="100%" style="max-width:800px;" controls autoplay muted loop>
+    Seu navegador não suporta o elemento de vídeo.
   </video>
 </p>
 
