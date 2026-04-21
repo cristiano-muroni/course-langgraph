@@ -1,5 +1,11 @@
 # 🚀 LangGraph: Agente Matemático com Gemini 1.5
 
+<p align="center">
+  <a href="https://customer-gh20rj71xet1a5e4.cloudflarestream.com/c169fc9aa9ecc12a4a1d54eb5faa9e62/downloads/default.mp4">
+    <img src="thumb.png" alt="Clique para assistir ao vídeo" width="600px"/>
+  </a>
+</p>
+
 Este repositório contém um exemplo prático de como construir um **Agente Inteligente** utilizando **LangGraph** e **LangChain**, integrados ao modelo **Gemini 1.5 Flash**. O agente é capaz de raciocinar sobre uma pergunta matemática, decidir quais ferramentas usar, executar códigos Python e retornar uma resposta final precisa.
 
 ---
