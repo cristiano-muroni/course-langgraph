@@ -2,7 +2,7 @@
 
 <p align="center">
   <a href="https://customer-gh20rj71xet1a5e4.cloudflarestream.com/c169fc9aa9ecc12a4a1d54eb5faa9e62/downloads/default.mp4">
-    <img src="thumb.png" alt="Clique para assistir ao vídeo" width="600px"/>
+    <img src="thumb.mp4" alt="Clique para assistir ao vídeo" width="600px"/>
   </a>
 </p>
 
